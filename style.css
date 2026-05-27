@@ -27,9 +27,13 @@ body{
 
 .logo{
 
-    width:120px;
+    width:140px;
 
     margin-bottom:20px;
+
+    border-radius:20px;
+
+    box-shadow:0 4px 20px rgba(0,0,0,0.08);
 
 }
 
@@ -38,6 +42,10 @@ h1{
     margin:0;
 
     color:#222;
+
+    font-size:42px;
+
+    text-align:center;
 
 }
 
@@ -49,11 +57,15 @@ h2{
 
     text-align:center;
 
+    font-weight:normal;
+
 }
 
 p{
 
     color:#777;
+
+    margin-top:10px;
 
 }
 
@@ -61,23 +73,25 @@ p{
 
     background:white;
 
-    padding:30px;
+    padding:35px;
 
     border-radius:20px;
 
     width:100%;
 
-    max-width:400px;
+    max-width:420px;
 
-    box-shadow:0 4px 20px rgba(0,0,0,0.08);
+    box-shadow:0 4px 25px rgba(0,0,0,0.08);
 
-    margin-top:20px;
+    margin-top:30px;
 
 }
 
 label{
 
     font-weight:bold;
+
+    color:#333;
 
 }
 
@@ -86,17 +100,28 @@ select{
 
     width:100%;
 
-    padding:12px;
+    padding:14px;
 
     margin-top:8px;
 
-    margin-bottom:20px;
+    margin-bottom:22px;
 
-    border-radius:10px;
+    border-radius:12px;
 
-    border:1px solid #ccc;
+    border:1px solid #d8d8d8;
 
     box-sizing:border-box;
+
+    font-size:15px;
+
+}
+
+input:focus,
+select:focus{
+
+    outline:none;
+
+    border:1px solid #c7b299;
 
 }
 
@@ -104,11 +129,11 @@ button{
 
     width:100%;
 
-    padding:14px;
+    padding:15px;
 
     border:none;
 
-    border-radius:12px;
+    border-radius:14px;
 
     background:#c7b299;
 
@@ -127,5 +152,7 @@ button{
 button:hover{
 
     transform:scale(1.02);
+
+    background:#b89f83;
 
 }
