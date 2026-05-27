@@ -3,51 +3,107 @@
 
 <head>
 
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>
-Dashboard
-</title>
+    <title>
+        Painel Principal
+    </title>
 
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-<div class="login-container">
+<div class="dashboard-container">
 
-<h1>
-Painel Principal
-</h1>
+    <header class="dashboard-header">
 
-<p>
-Clínica Dentária Professor Doutor João Fontes Pereira
-</p>
+        <img 
+            src="logo.png"
+            class="dashboard-logo"
+        >
 
-<div class="login-box">
+        <div>
 
-<button>
-Configurar Semana
-</button>
+            <h1>
+                Clínica Dentária
+            </h1>
 
-<button>
-Registar Horário
-</button>
+            <h2>
+                Professor Doutor João Fontes Pereira
+            </h2>
 
-<button>
-Banco de Horas
-</button>
+            <p id="bemvindo"></p>
 
-<button>
-Estatísticas
-</button>
+        </div>
+
+    </header>
+
+    <div class="dashboard-grid">
+
+        <div class="dashboard-card">
+
+            <h3>
+                📅 Configurar Semana
+            </h3>
+
+            <p>
+                Definir horários personalizados da semana.
+            </p>
+
+        </div>
+
+        <div class="dashboard-card">
+
+            <h3>
+                ⏰ Registar Horário
+            </h3>
+
+            <p>
+                Adicionar horários e calcular horas automaticamente.
+            </p>
+
+        </div>
+
+        <div class="dashboard-card">
+
+            <h3>
+                🏦 Banco de Horas
+            </h3>
+
+            <p>
+                Consultar horas extra e horas negativas.
+            </p>
+
+        </div>
+
+        <div class="dashboard-card">
+
+            <h3>
+                📊 Estatísticas
+            </h3>
+
+            <p>
+                Ver relatórios e totais das assistentes.
+            </p>
+
+        </div>
+
+    </div>
 
 </div>
 
-</div>
+<script>
+
+const utilizador = localStorage.getItem("utilizador");
+
+document.getElementById("bemvindo").innerHTML =
+"Bem-vindo, " + utilizador;
+
+</script>
 
 </body>
 
