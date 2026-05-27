@@ -22,7 +22,7 @@ Registar Horário
     <div class="dashboard-header">
 
         <img 
-            src="logo.png?v=10"
+            src="logo.png?v=12"
             class="dashboard-logo"
             alt="Logo"
         >
@@ -65,14 +65,20 @@ Registar Horário
 
         <input type="date">
 
-        <hr>
+        <label>
+            Entrada Manhã
+        </label>
 
-        <h3>
-            Manhã
-        </h3>
+        <input type="time">
 
         <label>
-            Entrada
+            Saída Manhã
+        </label>
+
+        <input type="time">
+
+        <label>
+            Entrada Tarde
         </label>
 
         <input type="time">
@@ -83,25 +89,21 @@ Registar Horário
 
         <input type="time">
 
-        <hr>
-
-        <h3>
-            Tarde
-        </h3>
-
         <label>
-            Entrada
+            Feriado?
         </label>
 
-        <input type="time">
+        <select>
 
-        <label>
-            Saída
-        </label>
+            <option>
+                Não
+            </option>
 
-        <input type="time">
+            <option>
+                Sim
+            </option>
 
-        <hr>
+        </select>
 
         <label>
             Observações
@@ -109,7 +111,7 @@ Registar Horário
 
         <input 
             type="text"
-            placeholder="Ex: Consulta, atraso, saída antecipada..."
+            placeholder="Ex: Consulta, atraso..."
         >
 
         <button>
