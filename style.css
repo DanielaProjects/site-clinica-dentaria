@@ -181,12 +181,19 @@ button:hover {
 
     display: flex;
 
+    flex-direction: column;
+
+    justify-content: center;
+
     align-items: center;
 
-    gap: 20px;
+    text-align: center;
+
+    gap: 15px;
 
     margin-bottom: 40px;
 
+}
 }
 
 .dashboard-logo {
