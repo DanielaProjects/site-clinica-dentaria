@@ -1,3 +1,7 @@
+/* =========================
+   BASE
+========================= */
+
 body {
 
     margin: 0;
@@ -7,9 +11,13 @@ body {
 
     background: #f5f1ea;
 
+    color: #222;
+
 }
 
-/* LOGIN */
+/* =========================
+   LOGIN
+========================= */
 
 .login-container {
 
@@ -27,15 +35,59 @@ body {
 
 }
 
+/* =========================
+   LOGOS
+========================= */
+
+.logo,
+.dashboard-logo {
+
+    display: block;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    border-radius: 20px;
+
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+
+}
+
 .logo {
 
     width: 140px;
 
     margin-bottom: 20px;
 
-    border-radius: 20px;
+}
 
-    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+.dashboard-logo {
+
+    width: 120px;
+
+    margin-bottom: 10px;
+
+}
+
+/* =========================
+   TÍTULOS
+========================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    text-align: center;
+
+    width: 100%;
+
+    margin-left: auto;
+
+    margin-right: auto;
 
 }
 
@@ -47,8 +99,6 @@ h1 {
 
     font-size: 42px;
 
-    text-align: center;
-
 }
 
 h2 {
@@ -57,13 +107,25 @@ h2 {
 
     color: #555;
 
-    text-align: center;
-
     font-weight: normal;
 
 }
 
+h3 {
+
+    color: #333;
+
+    margin-bottom: 15px;
+
+}
+
+/* =========================
+   TEXTOS
+========================= */
+
 p {
+
+    text-align: center;
 
     color: #777;
 
@@ -71,7 +133,9 @@ p {
 
 }
 
-/* BOXES */
+/* =========================
+   CAIXAS
+========================= */
 
 .login-box {
 
@@ -83,7 +147,7 @@ p {
 
     width: 100%;
 
-    max-width: 700px;
+    max-width: 850px;
 
     margin: auto;
 
@@ -91,9 +155,13 @@ p {
 
     margin-top: 30px;
 
+    box-sizing: border-box;
+
 }
 
-/* FORMULÁRIOS */
+/* =========================
+   FORMULÁRIOS
+========================= */
 
 label {
 
@@ -135,7 +203,9 @@ select:focus {
 
 }
 
-/* BOTÕES */
+/* =========================
+   BOTÕES
+========================= */
 
 button {
 
@@ -169,11 +239,21 @@ button:hover {
 
 }
 
-/* DASHBOARD */
+/* =========================
+   DASHBOARD
+========================= */
 
 .dashboard-container {
 
-    padding: 30px;
+    width: 100%;
+
+    max-width: 1100px;
+
+    margin: auto;
+
+    padding: 40px 20px;
+
+    box-sizing: border-box;
 
 }
 
@@ -195,11 +275,19 @@ button:hover {
 
 }
 
-.dashboard-logo {
+.dashboard-header div {
 
-    width: 100px;
+    display: flex;
 
-    border-radius: 20px;
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    width: 100%;
 
 }
 
@@ -253,7 +341,9 @@ button:hover {
 
 }
 
-/* CONFIGURAR SEMANA */
+/* =========================
+   CONFIGURAR SEMANA
+========================= */
 
 hr {
 
@@ -262,37 +352,5 @@ hr {
     border-top: 1px solid #e5e5e5;
 
     margin: 30px 0;
-
-}
-
-h3 {
-
-    color: #333;
-
-    margin-bottom: 15px;
-
-}
-
-.dashboard-header h1 {
-
-    text-align: center;
-
-    width: 100%;
-
-}
-
-.dashboard-header h2 {
-
-    text-align: center;
-
-    width: 100%;
-
-}
-
-.dashboard-header p {
-
-    text-align: center;
-
-    width: 100%;
 
 }
