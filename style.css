@@ -194,7 +194,6 @@ button:hover {
     margin-bottom: 40px;
 
 }
-}
 
 .dashboard-logo {
 
@@ -271,5 +270,29 @@ h3 {
     color: #333;
 
     margin-bottom: 15px;
+
+}
+
+.dashboard-header h1 {
+
+    text-align: center;
+
+    width: 100%;
+
+}
+
+.dashboard-header h2 {
+
+    text-align: center;
+
+    width: 100%;
+
+}
+
+.dashboard-header p {
+
+    text-align: center;
+
+    width: 100%;
 
 }
